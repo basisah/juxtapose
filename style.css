@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 0;
+    overflow: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.About{
+    position: fixed;
+    z-index:1;
+    top:0px;
+    left:0px;
+    
+}
+.Date{
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Music{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.Intro-text{
+    position: relative;
+    top: 300px;
+    left: 450px;
+    right: 450px;
+    bottom: 300px;
+}
+
+button{
+    background-color:transparent ;
+    border: 5px;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    opacity: 100%;
+    border-color: grey;
+
+}
+
+.about-btn{border-radius: 25px;}
+.date-btn{border-radius: 25px;}
+.music-btn{border-radius: 25px;}
+.nav-btn{border-radius: 25px;}
+
