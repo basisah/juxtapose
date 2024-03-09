@@ -3,8 +3,10 @@ body{
     padding: 0;
     height: 0;
     overflow: scroll;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: pixel-palette,jpg;
+    font-family: "Verdana, Geneva, Tahoma, serif";
+    background-image: url("DARK BACK.jpeg");
+    background-repeat: no-repeat;
+    color:aliceblue;
 }
 
 .About{
@@ -42,7 +44,7 @@ body{
 }
 
 button{
-    background-color:transparent ;
+    background-color: transparent;
     border: 5px;
     color: grey;
     text-align: center;
