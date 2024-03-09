@@ -3,7 +3,8 @@ body{
     padding: 0;
     height: 0;
     overflow: scroll;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: pixel-palette,jpg;
 }
 
 .About{
