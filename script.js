@@ -1,5 +1,5 @@
 const Intro = document.querySelector(".Intro-text");
-const text = [
+const texts = [
     "Hi I'm blob.",
     "I look different, but i looked like you a long time ago.",
     "When I was younger, I was much smaller.",
@@ -13,14 +13,13 @@ const text = [
 ];
 
 function typeWriter(element, text, i = 0) {
-   element.textContent += text[i];
-   element.textContent= '';
-   let j = 0;
-   if (i == text.length -1){
-    return;
-   }
-    setTimeout(()=> typeWriter(element, text, i+1),50);
-}
-typeWriter(Intro, text);
-
-
+    element.textContent += text[i];
+    element.textContent= '';
+    let j = 0;
+    if (i == text.length -1){
+     return;
+    }
+     setTimeout(()=> typeWriter(element, text, i+1),50);
+ }
+ typeWriter(Intro, text);
+ 
