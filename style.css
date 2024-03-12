@@ -3,9 +3,10 @@ body{
     padding: 0;
     height: 0;
     overflow: scroll;
-    font-family: "Verdana, Geneva, Tahoma, serif";
-    background-image: url("DARK BACK.jpeg");
-    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("space\ black.jpeg");
+    background-size: 100%;
+    background-repeat: repeat;
     color:aliceblue;
 }
 
@@ -46,12 +47,12 @@ body{
 button{
     background-color: transparent;
     border: 5px;
-    color: grey;
+    color: aliceblue;
     text-align: center;
     padding: 20px;
     font-size: 20px;
     opacity: 100%;
-    border-color: grey;
+    border-color: aliceblue;
 
 }
 
