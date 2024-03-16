@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    background-image: url("spack\ black\ .jpeg");
+    background-repeat: repeat;
+    background-size: auto;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,a{
+    font-size: 23px;
+    font-family:Space Mono;
+    display: inline;
+}
+
+li.About{
+    position: relative;
+    float: left;
+}
+li.nav-bar{
+    position: relative;
+    float: right;
+}
+
+*{
+    box-sizing: border-box;
+    margin :0;
+    padding: 0;
+    background-color: transparent;
+
+}
