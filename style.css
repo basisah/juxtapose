@@ -2,9 +2,16 @@
 
 
 body{
-    background-image: url("spack\ black\ .jpeg");
+    background-color: black;
     background-repeat: repeat;
-    background-size: auto;
+    background-size: 100%;
+    font-size: 23px;
+    font-family:Space Mono;
+    font-weight: bold;
+    color: aliceblue;
+    margin :0;
+    padding: 0;
+    overflow: scroll;
 
 }
 ul {
@@ -14,24 +21,27 @@ ul {
 }
 
 li,a{
-    font-size: 23px;
-    font-family:Space Mono;
+    
     display: inline;
 }
 
 li.About{
     position: relative;
     float: left;
+    box-sizing: border-box;
 }
 li.nav-bar{
     position: relative;
     float: right;
 }
 
-*{
+header{
     box-sizing: border-box;
-    margin :0;
-    padding: 0;
-    background-color: transparent;
-
+}
+#my-spline{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        
 }
