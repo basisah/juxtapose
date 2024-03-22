@@ -13,18 +13,114 @@ body{
     margin :0;
     padding: 0;
     overflow: scroll;
+    min-height: 100vh;
 
 }
 
-#about{
-    text-align: center;
-    display: inline-block;
-}
+
 #my-spline{
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
         
 }
 
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .text-container {
+    width: 70%;
+  }
+  
+  .text-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-container p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  
+   #bunny{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 0);
+    padding: 30px;
+  }
+
+  nav{
+    background-color: transparent;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+  
+  nav ul{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav li{
+    height: 50px;
+
+  }
+  nav a{
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(175, 200, 222);
+  }
+  nav a:hover{
+    background-color: rgba(128, 128, 128, 0.511);
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+  }
+
+  nav li:first-child{
+    margin-right:auto;
+
+  }
+
+  .overcome{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .overcome-text{
+    width: 70%;
+  }
+
+  .overcome-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .overcome-text p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+
+  .but-over{
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+  
