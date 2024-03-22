@@ -123,4 +123,16 @@ body{
     right: 0;
   }
 
-  
+  .warning {
+    position: relative;
+    text-align: center;
+    text-overflow: scroll;
+    z-index: 998;
+    padding: 10px;
+    height: 250px;
+    width: 100px;
+    top: 300px;
+    bottom:300px;
+
+
+  }
